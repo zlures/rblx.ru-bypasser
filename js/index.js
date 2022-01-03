@@ -1,6 +1,7 @@
+var someamount = 5
 $(function() {
 	var currency = {
-		coefficient: 2
+		coefficient: someamount
 	};
 
 	$("input[name='amount']").keyup(function() {
